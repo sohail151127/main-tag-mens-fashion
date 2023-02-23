@@ -17,12 +17,6 @@ html, body {
   font-size: 16px !important;
 }
 
-.container{
-  /* border: 10px solid rgb(199, 12, 105); */
-  /* overflow-x: hidden; */
-
-}
-
 .header__1{
     display: flex;
     justify-content: center;
@@ -33,33 +27,20 @@ html, body {
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 12px !important;
-
-    /* border:5px solid red; */
-    /* width:100%; */
-    /* max-width: 100%; */
 }
 
 .header__2{
   background-color:#069206;
-
-  /* border:5px solid blue; */
   
 }
 
 .header__2__title{
     color: white;
-    /* margin-left: 3rem; */
     padding-left: 231px;
     padding-right: 231px;
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-family: 'Montserrat';
-    /* font-weight: 400; */
-    /* font-size: 40px; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* text-align: center; */
-
     font-weight: 400;
     font-size: 36px;
     
@@ -70,8 +51,6 @@ html, body {
     padding-left: 231px;
     padding-right: 231px;
     display: flex;
-    /* justify-content: center; */
-    /* text-align: center; */
     padding-top: 0.5rem;
     padding-bottom: 2rem;
     font-family: Montserrat;
@@ -86,34 +65,8 @@ html, body {
     height: 100%;
 }
 
-main {
-    /* overflow: hidden; */
-    /* to remove scroll option un-comment above */
-    /* flex: 1; */
-    display: flex;
-    /* margin-left: 3rem;
-    margin-right: 3rem; */
-    padding-left: 231px;
-    padding-right: 231px;
-    column-gap: 46px;
-
-    /* border: 20px soid rgb(18, 40, 240); */
-
-}
-
 aside{
-  /* 250 px is the width of right sidebar */
-  /* flex: 0 0 270px; */
   flex: 0 0 25%;
-}
-
-
-
-article{
-    /* display: flex; */
-    /* flex-direction: column; */
-    
-     /* background-color: #069206; */
 }
 
 .main__heading{
@@ -121,14 +74,6 @@ article{
     font-weight: 700;
 }
 
-.content{
-    /* overflow: auto; */
-    /* background-color: #061fff; */
-}
-
-footer{
-    /* no need */
-}
 
 @media screen and (max-width:1014px) {
   aside{
@@ -152,20 +97,9 @@ footer{
       padding-right: 100px;
       display: flex;
   }
-    main {
-      /* border: 2px solid rgb(27, 24, 23); */
-      /* display: flex; */
-      padding-left: 100px;
-      padding-right: 100px;
-      /* column-gap: 1rem; */
-  }
 }
 
 @media screen and (max-width:767px) {
-  /* aside{ */
-      /* flex: 0 0 200px; */
-      /* display: none; */
-  /* } */
 
   .header__1{
     overflow-wrap: break-word;
@@ -187,15 +121,7 @@ footer{
     
     
 }
-  main {
-    /* border: 2px solid rgb(206, 15, 120); */
-    display: flex;
-    padding-left: 15px;
-    padding-right: 15x;
-    /* justify-content: center; */
-    /* column-gap: 1rem; */
-    /* overflow:hidden; */
-}
+
 
 .main__heading{
   font-size: x-large;
@@ -211,20 +137,6 @@ footer{
 .if__for{
   overflow-wrap: break-word;
 }
-
-/* .first__image{
-  display: flex;
-  /* flex-direction: column; */
-  flex-wrap: wrap;
-} */
-
-/* .second__img{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-} */
-
-
 
 }
 
@@ -253,8 +165,6 @@ footer{
   }
   .group-child {
     background-color: var(--color-white);
-    /* border: 5px solid rgba(0, 0, 0, 0.5); */
-    /* width: 100%; */
   }
   .frame-parent {
     gap: var(--gap-md);
@@ -270,23 +180,12 @@ footer{
   .mens-fashion-insider-container {
     background-color: #061fff;
     color: white;
-    /* padding-top: 1.8rem;
-    padding-bottom: 1.8rem;
-    margin-left: 1rem; */
     font-size: x-large;
   }
 
-  .fashion-insider {
-    /* font-weight: 700; */
-  }
-  
-
   .home {
     text-decoration: none;
-    /* font-weight: 600; */
     color: inherit;
-    /* padding-top: 1rem;
-    padding-left: 1rem; */
   }
   
   .home,
@@ -294,10 +193,7 @@ footer{
   .div,
   .div1,
   .foot-treatment {
-   
-    /* padding-top: 1rem; */
     font-weight: bold;
-
   }
   .current-trending {
     text-decoration: none;
@@ -313,8 +209,6 @@ footer{
   }
   .advertorial {
     background-color: rgb(0 0 0);
-    /* display: flex; */
-    /* justify-content: center; */
     color: white;
   }
   
@@ -848,5 +742,10 @@ footer{
   border-bottom: 10px solid #306830 !important;
  }
   
+
+ article{
+  max-width: 100%;
+  width: 100%;
+ }
   
   
