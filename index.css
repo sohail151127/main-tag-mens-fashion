@@ -112,16 +112,16 @@ aside{
     overflow-wrap: break-word;
   }
   .header__2__title{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
     overflow-wrap: break-word;
 
     font-weight: 400;
     font-size: 20px;
 }
   .breadcrumbs{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
    /* flex-direction: column; */
    overflow-wrap: break-word;
    font-size: 10px !important;
