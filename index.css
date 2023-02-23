@@ -136,6 +136,12 @@ aside{
   overflow-wrap: break-word;
 
 }
+main{
+  /* display: flex; */
+  margin-left: 5px;
+  margin-right: 5px;
+  column-gap: 46px;
+}
 
 .font__size{
   overflow-wrap: break-word;
