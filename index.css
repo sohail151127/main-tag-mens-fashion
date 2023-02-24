@@ -759,7 +759,7 @@ main{
   .abc{
     display: flex;
     justify-content: flex-start;
-    width: 100%;
+    /* width: 100%; */
     border-bottom: 1px solid #c2c2c2;;
     padding: 0.5rem;
   }
@@ -783,4 +783,8 @@ main{
   width: 100%;
  }
   
+ .link__code {
+  text-decoration: none;
+  color: black;
+ }
   
