@@ -15,6 +15,7 @@ html, body {
 /* I'm giving this class to all the text expect headings */
 .font__size{
   font-size: 16px !important;
+  overflow-wrap: break-word;
 }
 
 .header__1{
@@ -92,6 +93,10 @@ Font-size: 36px !important;
   line-height: 38.4px !important; 
 }
 
+.bolding {
+  font-weight: 700 !important;
+}
+
 /* .the-truth-about {
   font-weight: 700;
   font-size: 24px;
@@ -158,10 +163,6 @@ main{
   margin-left: 25px;
   margin-right: 25px;
   /* column-gap: 46px; */
-}
-
-.font__size{
-  overflow-wrap: break-word;
 }
 
 .if__for{
@@ -376,12 +377,12 @@ main{
     font-size: 24px;
     line-height: 29px;
   }
-  .foot-pain-is {
+  /* .foot-pain-is {
     font-family: var(--font-barlow);
-  }
-  .foot-pain-is-container {
+  } */
+  /* .foot-pain-is-container {
     font-size: var(--font-size-lg);
-  }
+  } */
   
   
   .oxford-derby-orthopedic1 {
