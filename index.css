@@ -792,6 +792,8 @@ main{
 
  .gtsby__alter {
   display: flex;
+  height: 2.6rem;
+  margin-top: 2rem;
  }
  .gtsby1 {
   display: flex;
@@ -800,7 +802,8 @@ main{
   align-items: center;
  }
  .gtsby2 {
-  width: 150px;
+  width: 200px;
+  height: 26.67px;
  }
 
  .alter1  {
@@ -808,9 +811,15 @@ main{
   flex: 1;
   justify-content: center;
   align-items: center;
+
+  width: 100%;
+  overflow-wrap: anywhere;
+
+  /* padding-top: 3rem; */
  }
 
  .alter2 {
   font-size: 32px;
   font-weight: 500;
+  
  }
