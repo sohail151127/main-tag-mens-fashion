@@ -789,3 +789,28 @@ main{
   color: black;
  }
   
+
+ .gtsby__alter {
+  display: flex;
+ }
+ .gtsby1 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+ }
+ .gtsby2 {
+  width: 150px;
+ }
+
+ .alter1  {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .alter2 {
+  font-size: 32px;
+  font-weight: 500;
+ }
