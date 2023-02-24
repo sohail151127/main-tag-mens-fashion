@@ -77,9 +77,26 @@ aside{
 }
 
 .main__heading{
-    font-size: xx-large;
-    font-weight: 700;
+
+font-weight: 600 !important;
+Font-style: SemiBold !important;
+Font-size: 36px !important;
+
 }
+
+/* its for sub__headings  */
+
+.sub__headings {
+  font-weight: 700 !important;
+  font-size: 32px !important;
+  line-height: 38.4px !important; 
+}
+
+/* .the-truth-about {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+} */
 
 
 @media screen and (max-width:1014px) {
@@ -366,11 +383,7 @@ main{
     font-size: var(--font-size-lg);
   }
   
-  .the-truth-about {
-    font-weight: 900;
-    font-size: 30px;
-    line-height: 38px;
-  }
+  
   .oxford-derby-orthopedic1 {
     text-decoration: underline;
     color: #061fff;
@@ -379,11 +392,11 @@ main{
     text-decoration: underline;
     font-family: var(--font-barlow);
   }
-  .if-you-spend {
+  /* .if-you-spend {
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-  }
+  } */
   
   .over-12500 {
     font-weight: 700;
@@ -395,7 +408,7 @@ main{
   }
 
   .these-leather-orthopedic-shoes-parent{
-    margin-top: 3rem;
+    margin-top: 1rem;
     width: 100%;
   }
 
@@ -582,6 +595,12 @@ main{
   }
   .To_avoid{
     background-color: #C9F5FB;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+
+    margin-bottom: 1rem;
   }
  
   .their-official-website-here {
@@ -629,9 +648,11 @@ main{
   }
   .important-updated-since-container {
     
-    width: 100%;
+    /* width: 100%; */
     color: #EB1000;
     background-color: #F5C20F;
+    padding: 1rem;
+    
   }
   .important-updated-since-wri-wrapper {
     background-color: #f5c20f;
@@ -648,14 +669,15 @@ main{
   }
   .gatsby-shoes-all-container,
   .this-is-an-container {
-    /* position: relative; */
+    
     display: inline-block;
-    /* width: 850px; */
+   
     height: 27px;
     flex-shrink: 0;
   }
   .this-is-an-container {
-    height: 113px;
+    
+    margin-top: 1rem;
   }
   .frame-container,
   .frame-parent11 {
