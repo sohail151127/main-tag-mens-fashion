@@ -168,6 +168,15 @@ main{
 .if__for{
   overflow-wrap: break-word;
 }
+.alter1  {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100%;
+  overflow-wrap: anywhere;
+ }
 
 .alter2 {
   font-size: 10px;
@@ -821,8 +830,6 @@ main{
 
   width: 100%;
   overflow-wrap: anywhere;
-
-  /* padding-top: 3rem; */
  }
 
  .alter2 {
