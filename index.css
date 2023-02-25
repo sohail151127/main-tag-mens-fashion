@@ -112,7 +112,7 @@ Font-size: 36px !important;
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:850px) {
     /* aside{ */
         /* flex: 0 0 200px; */
         /* display: none; */
@@ -126,6 +126,19 @@ Font-size: 36px !important;
       padding-right: 100px;
       display: flex;
   }
+  .alter1  {
+  
+    justify-content: flex-start;
+    align-items: center;
+  
+    width: 100%;
+    overflow-wrap: anywhere;
+   }
+  
+  .alter2 {
+    font-size: large !important;
+    font-weight: 500 !important;
+   }
 }
 
 @media screen and (max-width:767px) {
@@ -180,8 +193,6 @@ main{
 .alter2 {
   font-size: large !important;
   font-weight: 500 !important;
-  
-  
  }
 
 }
