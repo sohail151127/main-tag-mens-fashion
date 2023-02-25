@@ -139,6 +139,10 @@ Font-size: 36px !important;
     font-size: large !important;
     font-weight: 500 !important;
    }
+   .gtsby2 {
+    width: 133px !important;
+    height: 17.78px !important;
+   }
 }
 
 @media screen and (max-width:767px) {
@@ -193,6 +197,11 @@ main{
 .alter2 {
   font-size: large !important;
   font-weight: 500 !important;
+ }
+
+ .gtsby2 {
+  width: 133px !important;
+  height: 17.78px !important;
  }
 
 }
