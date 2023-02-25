@@ -178,9 +178,9 @@ main{
  }
 
 .alter2 {
-  font-size: small;
-  font-weight: 500;
-  /* color: yellow; */
+  font-size: large !important;
+  font-weight: 500 !important;
+  
   
  }
 
