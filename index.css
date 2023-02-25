@@ -136,12 +136,12 @@ Font-size: 36px !important;
    }
   
   .alter2 {
-    font-size: large !important;
+    font-size: 24px !important;
     font-weight: 500 !important;
    }
    .gtsby2 {
-    width: 133px !important;
-    height: 17.78px !important;
+    width: 192px !important;
+    height: 25.60px !important;
    }
 }
 
@@ -195,13 +195,13 @@ main{
  }
 
 .alter2 {
-  font-size: large !important;
+  font-size: 24px !important;
   font-weight: 500 !important;
  }
 
  .gtsby2 {
-  width: 133px !important;
-  height: 17.78px !important;
+  width: 192px !important;
+  height: 25.60px !important;
  }
 
 }
