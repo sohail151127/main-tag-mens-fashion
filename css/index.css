@@ -7,7 +7,7 @@ html, body {
   padding: 0px;
     /* height: 100%; */
     font-family: 'Montserrat';
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     overflow-wrap: break-word;
     
 }
