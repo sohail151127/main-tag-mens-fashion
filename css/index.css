@@ -898,15 +898,18 @@ main{
 /* reviews left side image */
 
 .review__left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #008000;
-    width: 23rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(public/Rectangle\ 7.png); */
+  object-fit: cover;
+  width: 19em;
+  max-width: 3em;
+  min-width: 3em;
 }
 
 .image__wrapper {
   background-color: #fff;
+  padding: 4px;
   border-radius: 100%;
-  padding: 0.4rem;
 }
