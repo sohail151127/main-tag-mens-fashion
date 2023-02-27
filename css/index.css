@@ -77,6 +77,8 @@ aside{
   flex: 0 0 25%;
 }
 
+
+
 .main__heading{
 
 font-weight: 600 !important;
@@ -872,3 +874,23 @@ main{
   color:#333333;
   
  }
+
+ /* on larg screen */
+
+ @media screen and (min-width:767px) {
+  .button__footer {
+    display: none;
+  }
+ }
+
+ /* on mobile */
+ .button__footer {
+  position: fixed;
+  bottom: -100px; /* initial position is off-screen */
+  width: 100%;
+  transition: bottom 0.3s ease-in-out; /* animate the footer's position */
+}
+
+.button__footer.show {
+  bottom: -18px !important; /* show the footer when the user scrolls down */
+}
