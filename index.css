@@ -810,6 +810,7 @@ main{
     width: 100%;
     border-bottom: 1px solid #c2c2c2;;
     padding: 0.5rem;
+    /* flex: 1; */
   }
 
   .abc1{
@@ -818,6 +819,7 @@ main{
   
   .def{
     padding-left: 1rem;
+    overflow-wrap: anywhere;
   }
   
  .green__buttons:hover {
