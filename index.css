@@ -791,6 +791,16 @@ main{
   
 }
   
+.check1{
+    font-size: 23px;
+    color: green;
+}
+
+.cross1{
+  color: red;
+  font-size: 23px;
+}
+
 
 
   
